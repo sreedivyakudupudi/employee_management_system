@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmployeeEvents</title>
+    style 
+     include ../static/employeeevent.css 
+</head>
+<body>
+    <span id="whole">
+    <div>
+    <h3> Welcome #{employeename}</h3> 
+    <hr>
+    </div> 
+    <div>
+        <p>Create An Event</p>
+        <br>
+        <a href="/signin/create"><button>Create</button></a>
+    </div>
+    <hr>
+    <div>
+        <p>Read An Event</p>
+        <br>
+        <a href="/signin/read"><button>Read</button></a>
+    </div>
+    <hr>
+    <div>
+        <p>Update An Event</p>
+        <br>
+        <a href="/signin/update"><button>Update</button></a>
+    </div>
+    <hr>
+    <div>
+        <p>Delete An Event</p>
+        <br>
+        <a href="/signin/delete"><button>Delete</button></a>
+    </div>
+</span>
+    <a href="/"><button id="logout">Log Out</button></a>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+
+    style 
+     include ../static/signup.css
+</head>
+<body>
+    <form action="/create" method="POST" name="myform">
+        <div id="a">Employee Registration form</div>
+        <div>
+            <label for="name" id="name">NAME:</label>
+            <span></span>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        </div>
+        <div>
+            <label for="regno" id="regno">REG NO:</label>
+            <span></span>
+            <input type="text" name="regno" id="regno" placeholder="Enter Your registration number">
+        </div>
+        <div>
+            <label for="company" id="company" name="company">Company</label>
+            <span></span>
+            <input type="text" name="company" id="company" placeholder="Enter Your company">
+        </div>
+        <div>
+           <label for="role" id="role" name="role">Role</label>
+           <span></span>
+           <input type="text" name="role" id="role" placeholder="Enter Your role">
+        </div>
+        <div>
+            <label for="email"style="margin-right:30px;">E-Mail</label>
+            <input type="email" name="email" id="email"placeholder="Enter Your E-mail address">
+        </div>
+        <div>
+            <label for="salary"style="margin-right:30px;">Salary</label>
+            <input type="text" name="salary" id="salary"placeholder="Enter Your Salary">
+        </div>
+        <div>
+            <label for="experience"style="margin-right:30px;">Experience</label>
+            <input type="text" name="experience" id="experience"placeholder="Enter Your experience in years">
+        </div>
+            <button id="r">Submit</button>
+        </div>
+    </form>
+    <a href="/"><button id="logout">Log Out</button></a>
+</body>
+</html>
